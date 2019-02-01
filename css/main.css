@@ -5,27 +5,27 @@
 @viewport { width: device-width; scale: 1; }
 
 html {
-  html {
-    box-sizing: border-box;
-  }
-
-  *, *::before, *::after {
-    box-sizing: inherit;
-  }
+  box-sizing: border-box;
 
   -moz-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
+
+  font-family: Georgia, serif;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
 }
 
 .img-flex {
-  disp: block;
-  widows: 100%;
+  display: block;
+  width: 100%;
 }
 
 a {
-  color: currentColor
+  color: currentColor;
 }
 
 .card {
